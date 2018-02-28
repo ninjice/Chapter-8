@@ -42,11 +42,17 @@ public class Power
     int pow;
 
     //if the exponent is 0, set pow to 1    
-
+    if (exp == 0)
+    {
+        pow = 1;
+    }
     //otherwise set pow to base*base^(exp-1)
-
+    else
+    {
+        pow = base * power(base, exp - 1);
+    }
     //return pow    
-    return 0;
+    return pow;
     }
 }
 
