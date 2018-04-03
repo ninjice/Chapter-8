@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=IntegerListB
+comment1.params=l
+comment1.target=IntegerListB(int[])
+comment2.params=target\ lo\ hi
+comment2.target=int\ binarySearchR(int,\ int,\ int)
+numComments=3
